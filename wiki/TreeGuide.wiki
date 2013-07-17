@@ -4,7 +4,8 @@
   * search
 
 
-== Tree class (cleared to show concept)==
+== Tree class ==
+Class cleared from details - to show main concept.
 {{{
 public class TreeNode<T> implements Iterable<TreeNode<T>> {
 
@@ -24,7 +25,7 @@ public class TreeNode<T> implements Iterable<TreeNode<T>> {
 		return childNode;
 	}
 
-	// ... and more
+	// ... and much more
 
 }
 }}}
@@ -54,7 +55,7 @@ TreeNode<String> root = new TreeNode<String>("root");
 }}}
 
 == Sample: iterating over tree ==
-Go through the tree with standard Iterator<T>:
+Go through the tree with standard Iterator`<T>`.
 {{{
 for (TreeNode<String> node : root) {
 	String indent = createIndent(node.getLevel());
@@ -77,8 +78,7 @@ root
 }}}
 
 == Sample: searching node ==
-To search define search criteria with Comparable<T>.
-
+To search define search criteria with Comparable`<T>`.
 {{{
 Comparable<String> searchCriteria = new Comparable<String>() {
 	@Override
