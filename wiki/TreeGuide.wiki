@@ -4,9 +4,10 @@
   * search
 
 =Code=
-Sources: http://http://code.google.com/p/yet-another-tree-structure/source/browse/
+
 == Tree class ==
 Class cleared from details - to show main concept.
+Full class [http://code.google.com/p/yet-another-tree-structure/source/browse/trunk/src/com/tree/TreeNode.java TreeNode.java]
 {{{
 public class TreeNode<T> implements Iterable<TreeNode<T>> {
 
