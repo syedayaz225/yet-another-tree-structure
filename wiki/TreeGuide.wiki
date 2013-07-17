@@ -5,8 +5,8 @@
 
 Yet another tree structure (java).
 
-Features:
-  * creating tree
+Main features:
+  * creating tree ;)
   * tree iterator
   * searching for node
 
