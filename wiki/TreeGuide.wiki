@@ -3,7 +3,8 @@
   * iterator
   * search
 
-
+=Code=
+Sources: http://http://code.google.com/p/yet-another-tree-structure/source/browse/
 == Tree class ==
 Class cleared from details - to show main concept.
 {{{
