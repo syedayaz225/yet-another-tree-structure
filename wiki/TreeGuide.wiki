@@ -1,11 +1,7 @@
-=Main features=
-  * creating tree ;]
-  * iterator
-  * search
+<wiki:toc max_depth="2" />
 
-=Code=
 
-== Tree class ==
+= Tree/node class =
 Class cleared from details - to show main concept.
 For details see: [http://code.google.com/p/yet-another-tree-structure/source/browse/trunk/src/com/tree/TreeNode.java TreeNode.java]
 {{{
@@ -32,7 +28,7 @@ public class TreeNode<T> implements Iterable<TreeNode<T>> {
 }
 }}}
 
-== Sample: building tree ==
+= Sample: creating tree =
 Code to build tree of strings.  
 Note using null in one of children.
 {{{
@@ -56,7 +52,7 @@ TreeNode<String> root = new TreeNode<String>("root");
 }
 }}}
 
-== Sample: iterating over tree ==
+= Sample: iterating through nodes =
 Go through the tree with standard Iterator`<T>`.
 {{{
 for (TreeNode<String> node : root) {
@@ -79,7 +75,7 @@ root
   node30
 }}}
 
-== Sample: searching node ==
+= Sample: searching for node =
 To search define search criteria with Comparable`<T>`.
 {{{
 Comparable<String> searchCriteria = new Comparable<String>() {
@@ -99,3 +95,8 @@ Output:
 {{{
 Found: node210
 }}}
+
+= Tnx =
+If you like this tree -> don't forget to vote up ;] Tnx!
+
+[http://stackoverflow.com/a/17490124]
