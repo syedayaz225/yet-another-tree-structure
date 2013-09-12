@@ -3,7 +3,7 @@
 
 = Tree/node class =
 Core class elements.
-For full code see: [http://code.google.com/p/yet-another-tree-structure/source/browse/trunk/src/com/tree/TreeNode.java TreeNode.java]
+For full code see: [http://code.google.com/p/yet-another-tree-structure/source/browse/trunk/csharp/CSharpTree/TreeNode.cs TreeNode.cs]
 {{{
 public class TreeNode<T> : IEnumerable<TreeNode<T>>
 {
