@@ -23,12 +23,10 @@ public class TreeNode<T> : IEnumerable<TreeNode<T>>
     {
         TreeNode<T> childNode = new TreeNode<T>(child) { Parent = this };
         this.Children.Add(childNode);
-
         return childNode;
     }
 
     // other features ...
-
 }
 }}}
 
@@ -96,4 +94,4 @@ Found: node210
 = Tnx =
 If you like this tree -> don't forget to vote up ;] Tnx!
 
-[http://stackoverflow.com/a/17490124]
+[http://stackoverflow.com/a/18774221/1367449]
