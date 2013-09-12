@@ -1,4 +1,4 @@
-Tree structure, coded in:
+Tree structure, implemented in:
   * C#
   * Java
 
