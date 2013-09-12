@@ -57,7 +57,7 @@ TreeNode<string> root = new TreeNode<string>("root");
 }}}
 
 = Sample 2: iterating through nodes =
-Go through the tree with standard Iterator`<T>`.
+Go through the tree with standard IEnumerable`<T>`.
 {{{
 TreeNode<string> treeRoot = SampleData.GetSet1();
 foreach (TreeNode<string> node in treeRoot)
@@ -84,18 +84,9 @@ root
 = Sample 3: searching for node =
 To search define search criteria with Comparable`<T>`.
 {{{
-Comparable<String> searchCriteria = new Comparable<String>() {
-	@Override
-	public int compareTo(String treeData) {
-		if (treeData == null)
-			return 1;
-		boolean nodeOk = treeData.contains("210");
-		return nodeOk ? 0 : 1;
-	}
-};
-
-TreeNode<String> treeRoot = SampleData.getSet1();
-TreeNode<String> found = treeRoot.findTreeNode(searchCriteria);
+TreeNode<string> treeRoot = SampleData.GetSet1();
+TreeNode<string> found = treeRoot.FindTreeNode(node => node.Data != null && node.Data.Contains("210"));
+Console.WriteLine("Found: " + found);
 }}}
 Output:
 {{{
